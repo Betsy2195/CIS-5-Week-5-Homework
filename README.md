@@ -57,8 +57,8 @@ Your rules and messages can be different. The shape is the same: two inputs, an 
 | 72 | 90 | pass |
 | 72 | 40 | warn — attendance too low |
 | 55 | 90 | fail |
-| 69 | 90 | ? (your edge) |
-| 70 | 90 | ? (your edge) |
+| 69 | 90 | fail |
+| 70 | 90 | pass |
 
 One row per path, plus your edge values. The grader reads the table, then runs two rows to check.
 
